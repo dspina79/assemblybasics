@@ -16,5 +16,9 @@
     ; increment y by 1
     iny
 
+    ; decrement y
+    dey
+    dey
+
     rts 
 .endproc
