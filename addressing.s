@@ -15,5 +15,12 @@
     ldx $00
     stx $02
     inc $02
-    
+
+    ; add $01 and $00
+    lda $00
+    ; clear the carry flag
+    clc
+    adc $01
+
+
 .endproc
